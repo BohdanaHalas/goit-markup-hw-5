@@ -579,9 +579,6 @@ img {
     fill: #f4f4fd
 }
 
-.footer-form {
-    margin-left: 80px;
-}
 
 .footer-subsribe {
     font-weight: 500;
@@ -592,17 +589,13 @@ img {
     margin-bottom: 16px;
 }
 
-.footer-form-blank {
+.footer-form {
     display: flex;
 }
 
 .login-form {
     display: flex;
     gap: 24px;
-}
-
-.footer-label {
-
 }
 
 .footer-email {
