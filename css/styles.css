@@ -589,10 +589,6 @@ img {
     margin-bottom: 16px;
 }
 
-.footer-form {
-    display: flex;
-}
-
 .login-form {
     display: flex;
     gap: 24px;
