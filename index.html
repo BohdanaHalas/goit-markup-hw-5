@@ -396,7 +396,49 @@
     <!--======== MODAL WINDOW ========-->
     <div class="modal-overlay">
         <div class="modal">
-            <p>Modal content</p>
+            <button class="modal-x" type="button">
+                <svg class="modal-x-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-black-18dp-2-1"/>
+                </svg>
+            </button>
+            <p class="modal-text">Leave your contacts and we will call you back</p>
+            <form>
+                <div class="modal-form-div">
+                    <label class="model-form-label" for="user-name">Name
+                        <div class="div-input">
+                            <input class="form-input" type="text" name="user-name" id="user-name" />
+                            <svg class="div-input-icon" width="18" height="24">
+                                <use href="./images/icons.svg#icon-person-black-18dp-1" />
+                            </svg>
+                        </div>
+                    </label>
+                </div>
+                <div class="modal-form-div">
+                    <label class="model-form-label" for="user-name">Phone
+                        <div class="div-input">
+                            <input class="form-input" type="text" name="user-name" id="user-name" />
+                            <svg class="div-input-icon" width="18" height="24">
+                                <use href="./images/icons.svg#icon-phone-black-18dp-1" />
+                            </svg>
+                        </div>
+                    </label>
+                </div>
+                <div class="modal-form-div">
+                    <label class="model-form-label" for="user-name">Email
+                        <div class="div-input">
+                            <input class="form-input" type="text" name="user-name" id="user-name" />
+                            <svg class="div-input-icon" width="18" height="24">
+                                <use href="./images/icons.svg#icon-email-black-18dp-1" />
+                            </svg>
+                        </div>
+                    </label>
+                </div>
+                <div class="modal-form-div-comment">
+                    <label class="model-form-label" for="user-comment">user-comment
+                    </label>
+                    <textarea class="model-textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+                </div>
+            </form>
         </div>
     </div>
 </body>
