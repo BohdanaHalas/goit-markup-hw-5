@@ -721,7 +721,7 @@ img {
     margin-bottom: 8px;
 }
 
-.model-form-label {
+.modal-form-label {
     display: block;
     font-size: 12px;
     line-height: 1.17;
@@ -730,7 +730,7 @@ img {
     color: #8e8f99;
 }
 
-.div-input {
+.modal-input {
     position: relative;
 }
 
