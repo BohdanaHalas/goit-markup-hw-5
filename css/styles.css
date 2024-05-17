@@ -799,6 +799,10 @@ img {
     margin-bottom: 24px;
 }
 
+.div-checkbox .input:checked {
+    background-color: #404bbf;
+}
+
 .label-privacy {
     line-height: 1.17;
     letter-spacing: 0.04em;
