@@ -742,8 +742,9 @@ img {
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:focus {
+.form-input:focus .div-input-icon{
     border-color: #4D5AE5;
+    fill: #4D5AE5
 }
 
 .div-input-icon {
@@ -754,9 +755,10 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/*
 .div-input-icon:focus {
     fill: #4D5AE5;
-}
+}*/
 
 .modal-form-div-comment {
     margin-bottom: 16px;
