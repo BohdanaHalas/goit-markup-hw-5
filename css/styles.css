@@ -693,18 +693,11 @@ img {
 .modal-x:hover, .modal-x:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .modal-x-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-x-icon:hover {
-    fill: #ffffff;
-}
-
-.modal-x-icon:focus {
-    fill: #ffffff;
 }
 
 .modal-text {
